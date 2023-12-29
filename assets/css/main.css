@@ -1,0 +1,1546 @@
+/* <+================= Public =================+>*/
+
+/* <+================= Fonts =================+>*/
+
+/* <+================= Be Vietnam Pro =================+>*/
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;700&display=swap");
+
+/* <+================= End of Fonts =================+>*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--White-97, #F7F7F8);
+  font-family: "Be Vietnam Pro", sans-serif;
+  min-width: 320px;
+}
+
+.selected {
+  border-radius: 8px;
+  background: var(--White-95, #f1f1f3);
+  padding: 14px 24px;
+}
+.container{
+    width: calc((100% - 324px));
+    margin: auto;
+  
+}
+
+
+ .view-all-button{
+  width: calc((100% - 160px - 300px)/2);
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+
+}
+.view-all-button button{
+  font-family: "Be Vietnam Pro", sans-serif;
+  border-radius: 8px;
+  border: 1px solid var(--White-95, #F1F1F3);
+  background: var(--White-99, #FCFCFD);
+  text-transform: capitalize;
+  padding: 18px 24px;
+  
+
+}
+
+
+section .heading{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap:5px;
+  flex-wrap: wrap;
+}
+
+section .heading  p{
+  width: calc((100% - 324px - 300px)/2);
+  flex-grow: 3;
+}
+
+section .heading  h2{
+  width: 100%;
+  text-transform: capitalize;
+  font-size: 48px;
+}
+
+section .heading .view-all-button{
+  width: calc((100% - 324px - 300px)/2);
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+
+}
+section .heading button{
+  font-family: "Be Vietnam Pro", sans-serif;
+  border-radius: 8px;
+  border: 1px solid var(--White-95, #F1F1F3);
+  background: var(--White-99, #FCFCFD);
+  text-transform: capitalize;
+  padding: 18px 24px;
+  
+
+}
+
+
+
+/* <+================= End of Public =================+>*/
+
+
+
+
+
+
+/* <+================================== Start of Header Section ==================================+>*/
+
+header {
+  text-transform: capitalize; /*   <----------------------------->     */
+  margin-top: 20px;
+  padding: 20px 132px;
+}
+
+header a {
+  color: var(--Grey-15, #262626);
+}
+/*header .container { it could change
+  width: calc((100% - 162px));
+  margin: auto;
+}*/
+
+header .container .row {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+/* <+================= Header:logo =================+>*/
+header .logo {
+  display: flex;
+  border-radius: 8px;
+  background: var(--Orange-50, #ff9500);
+}
+/* <+================= End of Header:logo =================+>*/
+
+/* <+================= Header:nav =================+>*/
+header nav {
+  display: flex;
+  flex-grow: 1;
+}
+
+header nav ul {
+  display: flex;
+
+  gap: 25px;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: var(--Grey-15, #262626);
+}
+/* <+=================  End of Header:nav =================+>*/
+
+/* <+================= Header:authentication =================+>*/
+header .authentication {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header .authentication ul {
+  display: flex;
+  gap: 65px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+header .authentication ul li {
+  list-style-type: none;
+}
+
+header .authentication ul li a {
+  text-decoration: none;
+}
+
+header .login {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 8px;
+  background: var(--Orange-50, #ff9500);
+  padding: 14px 34px;
+  color: white;
+}
+
+/* <+================= End of Header:authentication ==========+>*/
+
+header a:hover {
+  border-radius: 8px;
+  background: var(--White-95, #f1f1f3);
+  padding: 14px 24px;
+}
+.burger-icon {
+  display: none;
+}
+
+/* <+================================== End of Header Section ==================================+>*/
+
+
+/* <+================================== Start of Hero Section ==================================+>*/
+.hero{
+  margin: 125px 0;
+  color: var(--Grey-15, #262626);
+
+}
+.hero .row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap:20px;
+}
+
+.hero .hero-heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 8px;
+  border: 1px solid var(--White-95, #F1F1F3);
+  background: var(--White-99, #FCFCFD);
+  padding: 20px;
+  gap:15px;
+  position: relative;
+}
+
+.hero .hero-heading .icon{
+  display: flex;
+  border-radius: 6px;
+  background: var(--Orange-95, #FFF4E5);
+  padding: 12px;
+  flex-wrap: wrap;
+}
+
+.hero-heading .light-icon{
+  position: absolute;
+  top:0;
+  left: 0;
+  margin:-30px;
+}
+
+.hero .hero-heading h1{
+  text-transform: capitalize;
+  font-size: 48px;
+
+}
+.hero .hero-heading h1 span{
+  color: var(--Orange-50, #FF9500);
+
+}
+
+.hero .description {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  gap:10px;
+}
+.hero .description h5{
+  
+  color: var(--Grey-15, #262626);
+  font-size: 28px;
+  font-weight: 600;
+
+}
+
+.hero .hero-buttons{
+  display: flex;
+  gap:10px;
+
+}
+
+.hero .hero-buttons button {
+  padding:18px 24px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 600px;
+  font-size: 18px;
+  border:none;
+  border-radius: 8px;
+
+}
+
+.Explore-Courses button{
+  background-color: #FF9500;
+  color: var(--Absolute-White, #FFF);
+
+}
+
+.View-Pricing button{
+  background-color: white;
+}
+
+
+
+/* <+================================== End of Hero Section ==================================+>*/
+
+
+
+
+
+
+/* <+================================== Start of supportedPlatforms Section ==================================+>*/
+
+.supportedPlatforms {
+  margin:100px 0;
+}
+
+/*.supportedPlatforms .container{
+  width: calc(100% - 330px);
+
+}**/
+
+.supportedPlatforms  .row {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 30px;
+  border-radius: 12px;
+  border: 1px solid var(--White-95, #F1F1F3);
+  background: var(--White-99, #FCFCFD);
+  flex-wrap: wrap;
+  gap:10px;
+  
+}
+
+.supportedPlatforms .platform{
+  display: flex;
+  justify-content: center;
+  padding: 30px 40px;
+  width: calc((100% - 324px - 210px )/7);
+  flex-grow: 1;
+  flex-wrap: wrap;
+ 
+}
+
+.supportedPlatforms .platform svg{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+/* <+================================== End of supportedPlatforms Section ==================================+>*/
+
+
+
+/* <+================================== Start of About-us-video Section ==================================+>*/
+  .About-us-video{
+    margin: 100px 0;
+  }
+
+  .About-us-video .row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .About-us-video .video-About-us{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .About-us-video .video-About-us img{
+    aspect-ratio: 1596/790;
+    object-fit: cover;
+    width: 100%;
+  }
+
+/* <+================================== End of About-us-video Section ==================================+>*/
+
+
+
+
+
+
+/* <+================================== Start of Benefits Section ==================================+>*/
+    .Benefits{
+      margin:100px 0;
+    }
+
+    /*.Benefits  .container{
+      width: calc(100% - 320px);
+      margin: auto;
+    }*/
+
+   .Benefits .row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:80px;
+    flex-wrap: wrap;
+    
+   }
+   
+    .Benefits h2{
+      width: 100%;
+      font-size: 48px;
+      font-weight: 600;
+      text-transform: capitalize;
+    }
+
+    .Benefits .benefit-heading{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap:5px;
+      flex-wrap: wrap;
+    }
+
+    .Benefits .benefit-heading  p{
+      width: calc((100% - 320px - 300px)/2);
+      flex-grow: 1;
+    }
+
+    .Benefits .benefit-heading .view-all-button{
+      width: calc((100% - 320px - 300px)/2);
+      display: flex;
+      justify-content: flex-end;
+      flex-wrap: wrap;
+
+    }
+    .Benefits .benefit-heading button{
+      font-family: "Be Vietnam Pro", sans-serif;
+      border-radius: 8px;
+      border: 1px solid var(--White-95, #F1F1F3);
+      background: var(--White-99, #FCFCFD);
+      text-transform: capitalize;
+      padding: 18px 24px;
+      
+
+    }
+
+    .Benefits .benefits-cards{
+      display: flex;
+      gap:20px;
+      flex-wrap: wrap;
+      
+
+    }
+    .Benefits .benefits-cards .benefit{
+      display: flex;
+      flex-direction: row;
+      padding: 50px;
+      border-radius: 12px;
+      background: var(--Absolute-White, #FFF);
+      gap:50px;
+      width: calc((100% - 320px - 20px)/3);
+      flex-wrap: wrap;
+      aspect-ratio: 420/338;
+      flex-grow: 1;
+      
+    }
+
+    .Benefits .benefits-cards .benefit .number{
+      display: flex;
+      justify-content: end;
+      font-size: 80px;
+      font-weight: 700;
+      flex-wrap: wrap;
+      width: 100%;
+      line-height: 24px;
+    }
+
+    .Benefits .benefits-cards .benefit .title{
+      text-transform: capitalize;
+      font-size: 18px;
+      font-weight: 600;
+
+    }
+
+    .Benefits .benefits-cards .benefit .description{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      gap:15px;
+      word-wrap: break-word;
+    }
+
+    .Benefits .benefits-cards .benefit .see-details-icon{
+      display: flex;
+      justify-content: end;
+      flex-wrap: wrap;
+      width: 100%;
+      
+
+    }
+
+    .Benefits .benefits-cards .benefit .see-details-icon .up-right-icon{
+      border-radius: 8px;
+      border: 1px solid var(--White-95, #F1F1F3);
+      background: var(--White-99, #FCFCFD);
+      padding: 20px;
+      
+
+    }
+
+/* <+================================== End of Benefits Section ==================================+>*/
+
+
+
+/* <+================================== Start of Our Courses Section ==================================+>*/
+    .our-course{
+      margin:100px 0;
+    }
+    /*
+    .our-course .container{
+      width: calc(100% - 320px);
+      margin: auto;
+    }*/
+
+    .our-course .row{
+      display: flex;
+      flex-wrap: wrap;
+      gap:30px;
+    }
+
+    .our-course h2{
+      font-size:48px;
+      font-weight: 600;
+      width: 100%;
+      text-transform: capitalize;
+    }
+
+     .our-course  .our-course-heading{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 5px;
+      flex-wrap: wrap;
+      }
+    
+
+    .our-course  .our-course-heading p{
+      width:calc((100% - 320px - 300px)/2);
+      flex-grow: 1;
+    }
+
+    .our-course  .our-course-heading .view-all-button {
+      width: calc((100% - 320px - 300px)/2);
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+   }
+
+   .our-course .courses-cards{
+    display: flex;
+    gap:30px;
+    flex-wrap: wrap;
+   } 
+
+   .our-course .courses-cards .course{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap:30px;
+    width: calc((100% - 320px - 30px)/2);
+    border-radius: 12px;
+    border: 1px solid var(--White-95, #F1F1F3);
+    background: var(--Absolute-White, #FFF);
+    padding: 50px;
+    flex-grow: 1;
+
+   }
+
+   .our-course .course .course-image{
+    display: flex;
+    flex-wrap: wrap;
+   }
+
+   .our-course .course .course-image img{
+    aspect-ratio: 683/380;
+    object-fit: cover;
+    width: 100%;
+  }
+   
+
+   .our-course .course .course-details{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap:15px;
+
+   }
+
+   .our-course .course .course-details .course-information{
+      display: flex;
+      gap:10px;
+      align-items: center;
+      flex-wrap: wrap;
+      text-transform: capitalize;
+   }
+   .our-course .course .course-details .course-information .submitted-by{
+    flex-grow: 1;
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+   }
+
+   .our-course .course .course-information .course-duration , 
+   .our-course .course .course-information .course-level {
+    border-radius: 8px;
+    border: 1px solid var(--White-95, #F1F1F3);
+    background: var(--Absolute-White, #FFF);
+    padding: 10px 16px;
+
+   }
+
+   .our-course .course .course-details .course-name{
+    text-transform: capitalize;
+   }
+
+   .our-course .course .course-details .get-it-now{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 8px;
+    border: 1px solid var(--White-95, #F1F1F3);
+    background: var(--White-97, #F7F7F8);
+    padding: 18px 24px;
+
+   }
+   .our-course .course .course-details .get-it-now a{
+    color: var(--Grey-15, #262626);
+    text-decoration: none;
+    text-transform: capitalize;
+   }
+    
+
+
+/* <+================================== End of Our Courses Section ==================================+>*/
+
+
+
+
+/* <+================================== Start of Our Testimonials Section ==================================+>*/
+  .our-testimonials{
+    margin:100px 0;
+
+  }
+
+  /*
+  .our-testimonials .container{
+    width: calc(100% - 320px );
+    margin: auto;
+  }*/
+
+  .our-testimonials .container .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap:80px;
+  }
+
+  .our-testimonials .our-testimonials-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+
+  }
+  .our-testimonials .our-testimonials-heading h2{
+    width: 100%;
+    text-transform: capitalize;
+    font-size: 48px;
+  }
+  .our-testimonials .our-testimonials-heading p{
+  width: calc((100% - 320px - 300px)/2);
+  flex-grow: 1;
+  }
+
+  .our-testimonials .our-testimonials-heading .view-all-button{
+    width: calc((100% - 320px - 300px)/2);
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+  }
+
+  .our-testimonials .our-testimonials-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+
+  }
+
+  .our-testimonials .our-testimonials-cards .testimonial {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: calc((100% - 320px - 30px)/2);
+    flex-grow: 1;
+    background: var(--White-99, #FCFCFD);
+  }
+  .our-testimonials .testimonial .testimonial-description{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    position: relative;
+  }
+
+  .testimonial-description::after{
+    content: "";
+    background: #F1F1F3;
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top:100%;
+    left: 0;
+  }
+
+  .our-testimonials .testimonial .testimonial-details{
+    display: flex;
+    flex-wrap: wrap;
+    gap:15px;
+    align-items: center;
+    background: var(--White-99, #FCFCFD);
+    padding: 30px;
+  }
+
+  .our-testimonials .testimonial .testimonial-details .testimonial-image{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .our-testimonials .testimonial .testimonial-details .testimonial-image img{
+    aspect-ratio: 60/60;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .our-testimonials .testimonial .testimonial-details .testimonial-name{
+    text-transform: capitalize;
+    flex-grow: 1;
+  }
+
+
+  .our-testimonials .testimonial .testimonial-details .read-full-story{
+    border-radius: 8px;
+    border: 1px solid var(--White-95, #F1F1F3);
+    background: var(--White-97, #F7F7F8);
+    padding: 18px 24px;
+  }
+
+  .our-testimonials .testimonial .testimonial-details .read-full-story a{
+    text-decoration: none;
+    color: var(--Grey-15, #262626);
+    text-transform: capitalize;
+
+  }
+
+/* <+================================== End of Our Testimonials Section ==================================+>*/
+
+
+
+
+/* <+================================== Start of Our pricing Section ==================================+>*/
+
+  .our-pricing{
+    margin:100px 0;
+  }
+
+ /* .our-pricing .container{
+    width: calc(100% - 320px);
+    margin: auto;
+  }*/
+
+  .our-pricing .container .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap:80px;
+  }
+
+  .our-pricing .our-pricing-heading {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+  }
+  .our-pricing .our-pricing-heading h2 {
+    width: 100%;
+    text-transform: capitalize;
+    font-size: 48px;
+  }
+
+  .our-pricing .our-pricing-heading p{
+    width: calc((100% - 320px - 300px));
+    flex-grow: 1;
+  }
+
+  .yearly-monthly-buttons{
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+  }
+  .our-pricing .heading .view-yearly-monthly-buttons{
+    border-radius: 8px;
+    background: var(--Absolute-White, #FFF);
+    width: fit-content;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    padding: 12px;
+    
+  }
+
+  .our-pricing .heading .view-yearly-monthly-buttons button{
+    font-family:  "Be Vietnam Pro", sans-serif;
+    text-transform: capitalize;
+    padding: 14px 30px;
+    border: none;
+    font-weight: 500;
+
+  }
+
+  .our-pricing .heading .view-yearly-monthly-buttons .yearly{
+    border-radius: 8px;
+    background: var(--Absolute-White, #FFF);
+    color: var(--Grey-30, #4C4C4D);
+
+
+  }
+  .our-pricing .heading .view-yearly-monthly-buttons .monthly{
+    border-radius: 6px;
+    background: var(--Orange-50, #FF9500);
+    color: var(--Absolute-White, #FFF);
+
+  }
+
+  .our-pricing .our-pricing-plans{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 12px;
+    background: var(--Absolute-White, #FFF);
+    gap:30px;
+    width: 100%;
+    padding: 80px;
+  }
+
+  .our-pricing .our-pricing-plans  .plan{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: calc((100% - 320px - 30px)/2);
+    border-radius: 12px;
+    border: 1px solid var(--White-95, #F1F1F3);
+    background: var(--White-99, #FCFCFD);
+    flex-grow: 1;
+    gap:50px;
+  }
+
+
+
+  
+  .our-pricing .our-pricing-plans .plan .plan-type{
+    border: 1px solid var(--Orange-90, #FFEACC);
+    background: var(--Orange-97, #FFF9F0);
+    border-radius: 6px;
+    padding: 12px 22px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+   
+  }
+  .our-pricing .our-pricing-plans .plan .plan-price{
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+   
+  }
+  .our-pricing .our-pricing-plans .plan .plan-price .number{
+    position: relative;
+
+  }
+
+  .our-pricing .our-pricing-plans .plan .plan-price .number .per{
+    position: absolute;
+    bottom: 15%;
+    left: 100%;
+
+  }
+  .our-pricing .our-pricing-plans .plan .plan-price .per p{
+    font-size: 18px;
+    color: var(--Grey-30, #4C4C4D);
+
+  }
+
+  .our-pricing .our-pricing-plans .available-features{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 12px;
+    border: 1px solid var(--White-95, #F1F1F3);
+    background: var(--White-99, #FCFCFD);
+    justify-content: center;
+    padding: 40px;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+
+
+  
+
+  .our-pricing .our-pricing-plans .available-features h4{
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+  }
+
+  .our-pricing .our-pricing-plans .available-features .features-list{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap:20px;
+
+  }
+
+  .our-pricing .our-pricing-plans .available-features .features-list .feature{
+    display: flex;
+    flex-wrap: wrap;
+    gap:12px;
+    align-items: center;
+    padding: 14px;
+    border-radius: 8px;
+    border: 1px solid var(--White-95, #F1F1F3);
+    width: 100%;
+  }
+
+  .feature .feature-name{
+    width: 50%;
+    flex-grow: 1;
+  }
+
+
+   .feature .feature-availability{
+
+  }
+  .feature .feature-availability .available-icon{
+    border-radius: 6px;
+    background: var(--Orange-95, #FFF4E5);
+    padding: 10px;
+
+  }
+
+  .feature .feature-availability .not-available-icon{
+    border-radius: 6px;
+    border: 1px solid var(--White-95, #F1F1F3);
+    padding: 10px;
+
+  }
+
+  .our-pricing .our-pricing-plans .available-features .get-started{
+    border-radius: 0px 0px 8px 8px;
+    background: var(--Orange-50, #FF9500);
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .our-pricing .our-pricing-plans .available-features .get-started a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: var(--Absolute-White, #FFF);
+
+
+  }
+
+
+/* <+================================== End of Our pricing Section ==================================+>*/
+
+
+
+
+
+
+/* <+==================================   Start of Footer ==================================+>*/
+
+  .footer{
+    margin:100px 0 0;
+    background-color: var(--Absolute-White, #FFF);
+    padding: 100px 0px 30px 0px ;
+  }
+
+  /*.footer .container{
+    width: calc(100% - 320px);
+  }*/
+
+  .footer .container .row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .footer .left{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap:40px;
+   width: 50%;
+  }
+
+  .footer .left .logo{
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    border-radius: 8px;
+    background: var(--Orange-50, #FF9500);
+    padding: 7px;
+  }
+
+  .footer .left .contact-information{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap:20px;
+  }
+
+  .footer .left .contact-information .info{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    align-items: center;
+  }
+
+  .footer .left .contact-information .info a{
+    text-decoration: none;
+    color: var(--Grey-15, #262626);
+
+  }
+
+  .footer .right{
+    display: flex;
+    flex-wrap: wrap;
+    text-transform: capitalize;
+    justify-content: space-between;
+    width: 50%;
+    margin-bottom: 50px;
+
+  }
+
+  .footer .right .column{
+    display: flex;
+    flex-wrap: wrap;
+    gap:15px;
+    flex-direction: column;
+  }
+
+  .footer .right ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    flex-direction: column;
+    gap:10px;
+  }
+
+  .footer .right ul li a{
+    text-decoration: none;
+    color: var(--Grey-35, #59595A);
+
+  }
+  .footer .right .social-profiles{
+    display: flex;
+    flex-wrap: wrap;
+    gap:15px;
+  }
+  .footer .right .social-profiles .social-icon{
+    border-radius: 8px;
+    border: 1px solid var(--White-95, #F1F1F3);
+    background: var(--White-97, #F7F7F8);
+    padding: 14px;
+  }
+
+  .footer .copyright::before{
+    content: "";
+    background: #F1F1F3;
+    width: 100%;
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top:50px 0;
+    
+  }
+
+
+  .footer .copyright{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    padding: 50px  0 30px 0;
+    
+  }
+
+  .footer .copyright p{
+    margin-top: 50px;
+  }
+
+ 
+
+/* <+==================================   End of Footer ==================================+>*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* <+================= Start of Media query  =================+>*/
+
+/*mobile*/
+@media screen and (min-width: 320px) and (max-width: 768px) {
+
+  /* +-------------------- Start of Header Mobile --------------------+  */
+  .container{
+    width: calc(100% - 32px);
+    margin: auto;
+  }
+
+  section .heading{
+    flex-direction: column;
+  }
+  
+
+  
+  section .heading  p{
+    width: 100%;
+    flex-grow: 3;
+  }
+  
+  section .heading  h2{
+    width: 100%;
+    text-transform: capitalize;
+    font-size: 38px;
+  }
+  
+  section .heading .view-all-button{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  
+  }
+  section .heading button{
+    font-family: "Be Vietnam Pro", sans-serif;
+    border-radius: 8px;
+    border: 1px solid var(--White-95, #F1F1F3);
+    background: var(--White-99, #FCFCFD);
+    text-transform: capitalize;
+    padding: 18px 24px;
+    
+  
+  }
+
+
+
+  
+
+
+
+
+  header {
+    padding: 14px 0px;
+  }
+ 
+  header .container .row {
+    flex-wrap: nowrap;
+    gap:10px;
+    justify-content: space-between;
+
+
+    
+  }
+
+  header .authentication {
+    flex-grow: 1;
+  }
+
+  header .authentication ul {
+    gap: 10px;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    justify-content: end;
+  }
+
+  header nav {
+    display: none;
+    flex-grow: 0;
+  }
+
+  header .login {
+    padding: 12px 20px;
+  }
+
+  .burger-icon {
+    display: flex;
+  }
+
+  /* +-------------------- End of  Header Mobile --------------------+  */  
+
+  /* +-------------------- Start of Hero Section Mobile --------------------+  */  
+    .hero{
+      
+    }
+    .hero .hero-heading{
+      padding: 14px;
+      flex-wrap: nowrap;
+    }
+
+    .hero .hero-heading h1{
+      font-size:2em;
+    }
+
+    .hero-heading .light-icon{
+      padding: 12px;
+      margin:-25px;
+    }
+    .hero .hero-buttons button{
+      font-size:14px;
+      padding:14px 24px;
+    }
+
+  /* +-------------------- End of Hero Section Mobile --------------------+  */  
+
+
+
+
+  /* +-------------------- Start of supportedPlatforms Section Mobile --------------------+  */  
+    .supportedPlatforms .container{
+      width: calc(100% - 32px);
+    }
+    .supportedPlatforms .platform{
+     width:  calc((100% - 32px)/2);
+    }
+    .supportedPlatforms .row{
+      overflow-x:auto;
+      flex-wrap: nowrap;
+      justify-content: start;
+    }
+
+   /* +-------------------- End of supportedPlatforms Section Mobile --------------------+  */  
+
+
+
+
+
+   /* +-------------------- Start of About-us-video Section Mobile --------------------+  */  
+      .About-us-video .video-About-us img{
+        aspect-ratio: 358/247;
+      }
+
+
+    /* +-------------------- End of About-us-video Section Mobile --------------------+  */ 
+
+
+
+    /* +-------------------- Start of Benefits Section Mobile --------------------+  */  
+      
+
+      .Benefits .benefits-cards{
+        flex-direction: column;
+      }
+
+      .Benefits .benefits-cards .benefit{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        width: calc(100% - 32px);
+        padding: 30px;
+        gap:30px;
+        margin:auto;
+      }
+
+      .Benefits .benefits-cards .benefit .number{
+        font-size: 50px;
+      }
+    
+    /* +-------------------- End of Benefits Section Mobile --------------------+  */  
+
+
+
+
+
+
+
+    /* +-------------------- Start of Our Course Section Mobile --------------------+  */  
+    .our-course .courses-cards{
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .our-course .courses-cards .course{
+      width: calc(100% - 32px);
+    }
+
+    .our-course .course .course-details .course-information{
+      justify-content: center;
+    }
+
+    .our-course .course .course-details .course-information .submitted-by{
+      flex-grow: 0;
+    }
+
+    .our-course .course .course-information .course-duration, .our-course .course .course-information .course-level{
+      padding: 12px 8px;
+    }
+
+    
+
+
+    /* +-------------------- End of Our course Section Mobile --------------------+  */  
+
+
+
+
+    /* +-------------------- Start of our testimonials Section Mobile --------------------+  */  
+    .our-testimonials .our-testimonials-cards{
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .our-testimonials .our-testimonials-cards .testimonial{
+     width:  calc((100% - 32px ));
+    }
+
+
+
+     /* +-------------------- End of our testimonials Section Mobile --------------------+  */  
+
+
+      /* +-------------------- Start of our pricing plans Section Mobile --------------------+  */
+      .our-pricing .our-pricing-plans{
+        flex-direction: column;
+        padding: 20px;
+      }
+
+      .our-pricing .our-pricing-plans .plan{
+        width: 100%;
+      }
+
+      .our-pricing .our-pricing-plans .available-features{
+        padding: 20px;
+      }
+
+      .yearly-monthly-buttons{
+        margin:20px;
+        width: 100%;
+        justify-content: start;
+      }
+
+      
+
+
+       /* +-------------------- End of our pricing plans Section Mobile --------------------+  */
+
+
+
+      /* +-------------------- Start of  footer Mobile --------------------+  */
+      .footer .container .row{
+        flex-direction: column;
+        gap:25px;
+      }
+
+      .footer .left{
+        width: 100%;
+      }
+
+      .footer .right{
+        width: 100%;
+      }
+
+      .footer .right .column{
+        margin-top:25px;
+      }
+      .footer .copyright{
+        padding: 0;
+      }
+
+
+       /* +-------------------- End of  footer Mobile --------------------+  */
+      
+      
+
+
+
+
+    
+
+
+
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 620px) and (max-width:769px) {
+
+  .Benefits .benefits-cards .benefit{
+    width: calc((100% - 32px - 20px )/2);
+  }
+  .Benefits .benefits-cards{
+    flex-direction: row;
+  }
+}
+
+
+
+
+
+
+/*Laptop*/
+@media screen and (min-width: 769px) and (max-width: 1249px) {
+  header {
+    padding: 20px 0px;
+  }
+  
+
+  
+   .container {
+    width: calc(100% - 160px);
+  }
+
+  
+  header .container .row{
+    gap:5px;
+    justify-content: space-between;
+  }
+
+  header nav ul{
+    gap:10px;
+  }
+
+  .hero .hero-heading h1{
+    font-size:2.5em;
+  }
+ 
+  header .authentication ul {
+    gap: 10px;
+  }
+  header .login{
+    padding: 10px 24px;
+  }
+
+  .hero .hero-heading{
+    flex-wrap: nowrap;
+  }
+
+  .supportedPlatforms .row{
+    flex-wrap: nowrap;
+    overflow: auto;
+  }
+
+  .supportedPlatforms .container {
+    width: calc(100% - 160px);
+}
+  .supportedPlatforms .platform{
+    width:  calc((100% - 160px)/4);
+   }
+
+   .About-us-video .video-About-us img{
+    aspect-ratio: 1280/649;
+  }
+
+  .our-testimonials .our-testimonials-cards .testimonial{
+    width: calc((100% - 160px - 20px )/2);
+  }
+
+  .our-pricing .our-pricing-plans .plan{
+    width: calc((100% - 160px - 30px)/2);
+  }
+  .our-course .courses-cards .course{
+    width: calc((100% - 160px - 30px)/2);
+  }
+  .our-course .course .course-details .course-information .submitted-by{
+    flex-grow: 0;
+  }
+  .our-course .course .course-details .course-information{
+    justify-content: center;
+  }
+
+  .Benefits .benefits-cards .benefit{
+    width: calc((100% - 160px - 20px)/2);
+  }
+}
+
+/*Desktop*/
+@media screen and (min-width: 1249px) {
+  .container{
+    width: calc(100% - 160px);
+  }
+  .Benefits .benefits-cards .benefit{
+   width:  calc((100% - 160px - 40px)/3);
+  }
+  .our-course .course .course-details .course-information{
+    justify-content: center;
+  }
+  .our-testimonials .our-testimonials-cards .testimonial{
+    width: calc((100% - 160px - 30px)/2);
+  }
+  .our-course .course .course-details .course-information .submitted-by{
+    flex-grow: 0;
+  }
+}
+
+/* <+================= End of Media query  ===================+>*/
